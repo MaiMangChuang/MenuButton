@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MenuButton</string>
+    <string name="menuButton_Interpolator_Bounce">android.view.animation.BounceInterpolator</string>
+    <string name="menuButton_Interpolator_Accelerate">android.view.animation.AccelerateInterpolator</string>
+    <string name="menuButton_Interpolator_Decelerate">android.view.animation.DecelerateInterpolator</string>
+    <string name="menuButton_Interpolator_Overshoot">android.view.animation.OvershootInterpolator</string>
+    <string name="menuButton_Interpolator_AnticipateOvershoot">android.view.animation.AnticipateOvershootInterpolator</string>
+    <string name="menuButton_Interpolator_AccelerateDecelerate">android.view.animation.AccelerateDecelerateInterpolator</string>
+    <string name="menuButton_Interpolator_Cycle">android.view.animation.CycleInterpolator</string>
+    <string name="menuButton_Interpolator_Linear">android.view.animation.LinearInterpolator</string>
+    <string name="menuButton_Interpolator_Anticipate">android.view.animation.AnticipateInterpolator</string>
+</resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity">
+<com.example.menubutton.view.SuroundButton
+    android:layout_width="wrap_content"
+    android:id="@+id/sb"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_centerInParent="true"
+    app:mainVeiwHight="60"
+    app:mainVeiwWidth="60"
+    app:showTime="2000"
+    app:closeTime="800"
+    app:radius="500"
+    app:maxRain="360"
+    app:closeInterpolator="@string/menuButton_Interpolator_Bounce"
+    app:mainIcon_show="@drawable/menu_s"
+    app:mainIcon_close="@drawable/menu"
+    >
+
+    <ImageButton
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:id="@+id/qq"
+        android:background="@drawable/qq" />
+
+    <ImageButton
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:id="@+id/alipay"
+        android:background="@drawable/alipay" />
+
+    <ImageButton
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:id="@+id/chrome"
+        android:background="@drawable/chrome" />
+
+    <ImageButton
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:id="@+id/codepen"
+        android:background="@drawable/codepen" />
+
+    <ImageButton
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:id="@+id/dribbble"
+        android:background="@drawable/dribbble" />
+
+    <ImageButton
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:id="@+id/github"
+        android:background="@drawable/github" />
+
+    <ImageButton
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:id="@+id/google"
+        android:background="@drawable/google" />
+
+    <ImageButton
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:id="@+id/sketch"
+        android:background="@drawable/sketch" />
+
+    <ImageButton
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:id="@+id/twitter"
+        android:background="@drawable/twitter" />
+</com.example.menubutton.view.SuroundButton>
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SuroundButton">
+        <attr name="mainVeiwHight" format="integer"/>
+        <attr name="mainVeiwWidth" format="integer"/>
+        <attr name="radius" format="integer"/>
+        <attr name="showTime" format="integer"/>
+        <attr name="closeTime" format="integer"/>
+        <attr name="maxRain" format="integer"/>
+        <attr name="type" format="string"/>
+        <attr name="mainIcon_show" format="reference"/>
+        <attr name="mainIcon_close" format="reference"/>
+        <attr name="showAlpha" format="boolean"/>
+        <attr name="showScale" format="boolean"/>
+        <attr name="showInterpolator" format="reference"/>
+        <attr name="closeInterpolator" format="reference"/>
+        <attr name="closeAlpha" format="boolean"/>
+        <attr name="closeScale" format="boolean"/>
+    </declare-styleable>
+</resources>
