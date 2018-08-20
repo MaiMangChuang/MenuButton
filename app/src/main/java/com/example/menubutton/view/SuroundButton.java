@@ -277,10 +277,10 @@ public class SuroundButton extends RelativeLayout {
                         showAnimation(viewArrayList.get(i), i);
                         SuroundButton.this.getLayoutParams().height = ViewGroup.LayoutParams.MATCH_PARENT;
                         SuroundButton.this.getLayoutParams().width = ViewGroup.LayoutParams.MATCH_PARENT;
-
                     }
                 }
                 isShow = !isShow;
+                showMainView();
             }
         });
     }
@@ -290,6 +290,7 @@ public class SuroundButton extends RelativeLayout {
             showAnimation(view, viewArrayList.indexOf(view));
         }
         isShow = true;
+      showMainView();
     }
 
     ;
@@ -299,6 +300,7 @@ public class SuroundButton extends RelativeLayout {
             closeAnimation(view, viewArrayList.indexOf(view));
         }
         isShow = false;
+        showMainView();
     }
 
     ;
@@ -351,5 +353,14 @@ public class SuroundButton extends RelativeLayout {
     @Override
     public boolean onInterceptTouchEvent(MotionEvent ev) {
         return false;
+    }
+
+    private  void showMainView(){
+        if(isShow){
+            mainView.setBackground(mainIcons.get("show"));
+        }else {
+            mainView.setBackground(mainIcons.get("close"));
+        }
+
     }
 }
