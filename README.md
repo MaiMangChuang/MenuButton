@@ -35,6 +35,7 @@
     
     
 ![image](https://github.com/MaiMangChuang/Myzhihu/blob/master/app/src/main/res/drawable/dome1.png)
+<br>
 ![image](https://github.com/MaiMangChuang/Myzhihu/blob/master/app/src/main/res/drawable/dome2.png)
       
     
@@ -42,11 +43,11 @@
 -------  
 （1）展开最大角度：
 <br>
-app:maxRain="360"
+ app:maxRain="360"
 <br>
 （2）起始角度：
 <br>
-app:startAngle="@integer/menuButton_StartAngle_Top"
+ app:startAngle="@integer/menuButton_StartAngle_Top"
      
 2.可以设置展开距离：
 -------  
