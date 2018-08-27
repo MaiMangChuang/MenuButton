@@ -4,10 +4,10 @@
 使用方式：
 -------  
 ```
-<com.example.menubutton.view.SuroundButton
-android:layout_width="wrap_content"
-android:layout_height="wrap_content"
->
+        <com.example.menubutton.view.SuroundButton
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+                 >
    <!--加入任意数量你的菜单按钮等控件，例如-->
       <Button
         android:layout_width="55dp"
@@ -41,8 +41,11 @@ android:layout_height="wrap_content"
 1.可以设置展开角度：
 -------  
 （1）展开最大角度：
+<br>
 app:maxRain="360"
+<br>
 （2）起始角度：
+<br>
 app:startAngle="@integer/menuButton_StartAngle_Top"
      
 2.可以设置展开距离：
